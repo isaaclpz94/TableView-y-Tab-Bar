@@ -14,6 +14,9 @@
 		62DF63431DB4F2B7000CAC24 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62DF63421DB4F2B7000CAC24 /* Images.xcassets */; };
 		62DF63461DB4F2B7000CAC24 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62DF63441DB4F2B7000CAC24 /* LaunchScreen.xib */; };
 		62DF63521DB4F2B7000CAC24 /* TableView_y_Tab_BarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DF63511DB4F2B7000CAC24 /* TableView_y_Tab_BarTests.swift */; };
+		62DF635C1DB4F465000CAC24 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DF635B1DB4F465000CAC24 /* TableViewController.swift */; };
+		62DF635E1DB4F5F1000CAC24 /* Jugadores.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DF635D1DB4F5F1000CAC24 /* Jugadores.swift */; };
+		62E62E0F1DB660D4004A7D3D /* PlayersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E62E0E1DB660D4004A7D3D /* PlayersTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,9 @@
 		62DF634B1DB4F2B7000CAC24 /* TableView y Tab BarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TableView y Tab BarTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		62DF63501DB4F2B7000CAC24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62DF63511DB4F2B7000CAC24 /* TableView_y_Tab_BarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView_y_Tab_BarTests.swift; sourceTree = "<group>"; };
+		62DF635B1DB4F465000CAC24 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		62DF635D1DB4F5F1000CAC24 /* Jugadores.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Jugadores.swift; sourceTree = "<group>"; };
+		62E62E0E1DB660D4004A7D3D /* PlayersTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayersTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +87,14 @@
 			children = (
 				62DF63381DB4F2B7000CAC24 /* AppDelegate.swift */,
 				62DF633D1DB4F2B7000CAC24 /* ViewController.swift */,
+				62DF635D1DB4F5F1000CAC24 /* Jugadores.swift */,
+				62DF635B1DB4F465000CAC24 /* TableViewController.swift */,
 				62DF633F1DB4F2B7000CAC24 /* Main.storyboard */,
 				62DF63421DB4F2B7000CAC24 /* Images.xcassets */,
 				62DF63441DB4F2B7000CAC24 /* LaunchScreen.xib */,
 				62DF633A1DB4F2B7000CAC24 /* TableView_y_Tab_Bar.xcdatamodeld */,
 				62DF63361DB4F2B7000CAC24 /* Supporting Files */,
+				62E62E0E1DB660D4004A7D3D /* PlayersTableViewCell.swift */,
 			);
 			path = "TableView y Tab Bar";
 			sourceTree = "<group>";
@@ -217,7 +226,10 @@
 			files = (
 				62DF633E1DB4F2B7000CAC24 /* ViewController.swift in Sources */,
 				62DF633C1DB4F2B7000CAC24 /* TableView_y_Tab_Bar.xcdatamodeld in Sources */,
+				62E62E0F1DB660D4004A7D3D /* PlayersTableViewCell.swift in Sources */,
 				62DF63391DB4F2B7000CAC24 /* AppDelegate.swift in Sources */,
+				62DF635E1DB4F5F1000CAC24 /* Jugadores.swift in Sources */,
+				62DF635C1DB4F465000CAC24 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +425,7 @@
 				62DF63571DB4F2B7000CAC24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		62DF63581DB4F2B7000CAC24 /* Build configuration list for PBXNativeTarget "TableView y Tab BarTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +434,7 @@
 				62DF635A1DB4F2B7000CAC24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
